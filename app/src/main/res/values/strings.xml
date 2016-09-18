@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Todds Doc</string>
+    <string name="server_address">http://www.dummyaddreess.com</string>
+</resources>
