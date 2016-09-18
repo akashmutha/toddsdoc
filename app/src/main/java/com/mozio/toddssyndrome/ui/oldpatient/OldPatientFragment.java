@@ -82,7 +82,6 @@ public class OldPatientFragment extends Fragment implements View.OnClickListener
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.button_get_info:
-                patientId.clearFocus();
                 if(patientId.getText() != null && patientId.getText() != ""){
                     oldPatientPresenter.getPatientInfo(patientId.getText().toString())
                             .subscribeOn(Schedulers.newThread())
